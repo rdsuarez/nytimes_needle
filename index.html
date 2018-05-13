@@ -61,7 +61,7 @@ setInterval(randomValue, 2000);
 
 // set random value
 function randomValue() {
-  var value = Math.round(Math.random() * 100);
+  var value = Math.round(1);
   chart.arrows[0].setValue(value);
   chart.axes[0].setTopText(value + " %");
   // adjust darker band to new value
